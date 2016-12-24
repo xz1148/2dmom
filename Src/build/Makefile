@@ -150,6 +150,60 @@ cartesian.cpp.s:
 	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/cartesian.cpp.s
 .PHONY : cartesian.cpp.s
 
+dielectric.o: dielectric.cpp.o
+
+.PHONY : dielectric.o
+
+# target to build an object file
+dielectric.cpp.o:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/dielectric.cpp.o
+.PHONY : dielectric.cpp.o
+
+dielectric.i: dielectric.cpp.i
+
+.PHONY : dielectric.i
+
+# target to preprocess a source file
+dielectric.cpp.i:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/dielectric.cpp.i
+.PHONY : dielectric.cpp.i
+
+dielectric.s: dielectric.cpp.s
+
+.PHONY : dielectric.s
+
+# target to generate assembly for a file
+dielectric.cpp.s:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/dielectric.cpp.s
+.PHONY : dielectric.cpp.s
+
+greens.o: greens.cpp.o
+
+.PHONY : greens.o
+
+# target to build an object file
+greens.cpp.o:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/greens.cpp.o
+.PHONY : greens.cpp.o
+
+greens.i: greens.cpp.i
+
+.PHONY : greens.i
+
+# target to preprocess a source file
+greens.cpp.i:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/greens.cpp.i
+.PHONY : greens.cpp.i
+
+greens.s: greens.cpp.s
+
+.PHONY : greens.s
+
+# target to generate assembly for a file
+greens.cpp.s:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/greens.cpp.s
+.PHONY : greens.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,6 +258,60 @@ mesh.cpp.s:
 	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/mesh.cpp.s
 .PHONY : mesh.cpp.s
 
+plot.o: plot.cpp.o
+
+.PHONY : plot.o
+
+# target to build an object file
+plot.cpp.o:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/plot.cpp.o
+.PHONY : plot.cpp.o
+
+plot.i: plot.cpp.i
+
+.PHONY : plot.i
+
+# target to preprocess a source file
+plot.cpp.i:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/plot.cpp.i
+.PHONY : plot.cpp.i
+
+plot.s: plot.cpp.s
+
+.PHONY : plot.s
+
+# target to generate assembly for a file
+plot.cpp.s:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/plot.cpp.s
+.PHONY : plot.cpp.s
+
+readmatlab.o: readmatlab.cpp.o
+
+.PHONY : readmatlab.o
+
+# target to build an object file
+readmatlab.cpp.o:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/readmatlab.cpp.o
+.PHONY : readmatlab.cpp.o
+
+readmatlab.i: readmatlab.cpp.i
+
+.PHONY : readmatlab.i
+
+# target to preprocess a source file
+readmatlab.cpp.i:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/readmatlab.cpp.i
+.PHONY : readmatlab.cpp.i
+
+readmatlab.s: readmatlab.cpp.s
+
+.PHONY : readmatlab.s
+
+# target to generate assembly for a file
+readmatlab.cpp.s:
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/readmatlab.cpp.s
+.PHONY : readmatlab.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +324,24 @@ help:
 	@echo "... cartesian.o"
 	@echo "... cartesian.i"
 	@echo "... cartesian.s"
+	@echo "... dielectric.o"
+	@echo "... dielectric.i"
+	@echo "... dielectric.s"
+	@echo "... greens.o"
+	@echo "... greens.i"
+	@echo "... greens.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... mesh.o"
 	@echo "... mesh.i"
 	@echo "... mesh.s"
+	@echo "... plot.o"
+	@echo "... plot.i"
+	@echo "... plot.s"
+	@echo "... readmatlab.o"
+	@echo "... readmatlab.i"
+	@echo "... readmatlab.s"
 .PHONY : help
 
 

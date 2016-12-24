@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/xt/Documents/2dmom/Project/Src/build
 CMakeFiles/2dmom.dir/all:
 	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/depend
 	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=1,2,3,4 "Built target 2dmom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target 2dmom"
 .PHONY : CMakeFiles/2dmom.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/2dmom.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2dmom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/Documents/2dmom/Project/Src/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/Documents/2dmom/Project/Src/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2dmom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/Documents/2dmom/Project/Src/build/CMakeFiles 0
 .PHONY : CMakeFiles/2dmom.dir/rule

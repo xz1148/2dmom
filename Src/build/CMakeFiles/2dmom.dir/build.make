@@ -129,11 +129,111 @@ CMakeFiles/2dmom.dir/mesh.cpp.o.provides: CMakeFiles/2dmom.dir/mesh.cpp.o.requir
 CMakeFiles/2dmom.dir/mesh.cpp.o.provides.build: CMakeFiles/2dmom.dir/mesh.cpp.o
 
 
+CMakeFiles/2dmom.dir/plot.cpp.o: CMakeFiles/2dmom.dir/flags.make
+CMakeFiles/2dmom.dir/plot.cpp.o: ../plot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/2dmom.dir/plot.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2dmom.dir/plot.cpp.o -c /home/xt/Documents/2dmom/Project/Src/plot.cpp
+
+CMakeFiles/2dmom.dir/plot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2dmom.dir/plot.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xt/Documents/2dmom/Project/Src/plot.cpp > CMakeFiles/2dmom.dir/plot.cpp.i
+
+CMakeFiles/2dmom.dir/plot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2dmom.dir/plot.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xt/Documents/2dmom/Project/Src/plot.cpp -o CMakeFiles/2dmom.dir/plot.cpp.s
+
+CMakeFiles/2dmom.dir/plot.cpp.o.requires:
+
+.PHONY : CMakeFiles/2dmom.dir/plot.cpp.o.requires
+
+CMakeFiles/2dmom.dir/plot.cpp.o.provides: CMakeFiles/2dmom.dir/plot.cpp.o.requires
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/plot.cpp.o.provides.build
+.PHONY : CMakeFiles/2dmom.dir/plot.cpp.o.provides
+
+CMakeFiles/2dmom.dir/plot.cpp.o.provides.build: CMakeFiles/2dmom.dir/plot.cpp.o
+
+
+CMakeFiles/2dmom.dir/greens.cpp.o: CMakeFiles/2dmom.dir/flags.make
+CMakeFiles/2dmom.dir/greens.cpp.o: ../greens.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2dmom.dir/greens.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2dmom.dir/greens.cpp.o -c /home/xt/Documents/2dmom/Project/Src/greens.cpp
+
+CMakeFiles/2dmom.dir/greens.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2dmom.dir/greens.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xt/Documents/2dmom/Project/Src/greens.cpp > CMakeFiles/2dmom.dir/greens.cpp.i
+
+CMakeFiles/2dmom.dir/greens.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2dmom.dir/greens.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xt/Documents/2dmom/Project/Src/greens.cpp -o CMakeFiles/2dmom.dir/greens.cpp.s
+
+CMakeFiles/2dmom.dir/greens.cpp.o.requires:
+
+.PHONY : CMakeFiles/2dmom.dir/greens.cpp.o.requires
+
+CMakeFiles/2dmom.dir/greens.cpp.o.provides: CMakeFiles/2dmom.dir/greens.cpp.o.requires
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/greens.cpp.o.provides.build
+.PHONY : CMakeFiles/2dmom.dir/greens.cpp.o.provides
+
+CMakeFiles/2dmom.dir/greens.cpp.o.provides.build: CMakeFiles/2dmom.dir/greens.cpp.o
+
+
+CMakeFiles/2dmom.dir/dielectric.cpp.o: CMakeFiles/2dmom.dir/flags.make
+CMakeFiles/2dmom.dir/dielectric.cpp.o: ../dielectric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/2dmom.dir/dielectric.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2dmom.dir/dielectric.cpp.o -c /home/xt/Documents/2dmom/Project/Src/dielectric.cpp
+
+CMakeFiles/2dmom.dir/dielectric.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2dmom.dir/dielectric.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xt/Documents/2dmom/Project/Src/dielectric.cpp > CMakeFiles/2dmom.dir/dielectric.cpp.i
+
+CMakeFiles/2dmom.dir/dielectric.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2dmom.dir/dielectric.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xt/Documents/2dmom/Project/Src/dielectric.cpp -o CMakeFiles/2dmom.dir/dielectric.cpp.s
+
+CMakeFiles/2dmom.dir/dielectric.cpp.o.requires:
+
+.PHONY : CMakeFiles/2dmom.dir/dielectric.cpp.o.requires
+
+CMakeFiles/2dmom.dir/dielectric.cpp.o.provides: CMakeFiles/2dmom.dir/dielectric.cpp.o.requires
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/dielectric.cpp.o.provides.build
+.PHONY : CMakeFiles/2dmom.dir/dielectric.cpp.o.provides
+
+CMakeFiles/2dmom.dir/dielectric.cpp.o.provides.build: CMakeFiles/2dmom.dir/dielectric.cpp.o
+
+
+CMakeFiles/2dmom.dir/readmatlab.cpp.o: CMakeFiles/2dmom.dir/flags.make
+CMakeFiles/2dmom.dir/readmatlab.cpp.o: ../readmatlab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/2dmom.dir/readmatlab.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2dmom.dir/readmatlab.cpp.o -c /home/xt/Documents/2dmom/Project/Src/readmatlab.cpp
+
+CMakeFiles/2dmom.dir/readmatlab.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2dmom.dir/readmatlab.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xt/Documents/2dmom/Project/Src/readmatlab.cpp > CMakeFiles/2dmom.dir/readmatlab.cpp.i
+
+CMakeFiles/2dmom.dir/readmatlab.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2dmom.dir/readmatlab.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xt/Documents/2dmom/Project/Src/readmatlab.cpp -o CMakeFiles/2dmom.dir/readmatlab.cpp.s
+
+CMakeFiles/2dmom.dir/readmatlab.cpp.o.requires:
+
+.PHONY : CMakeFiles/2dmom.dir/readmatlab.cpp.o.requires
+
+CMakeFiles/2dmom.dir/readmatlab.cpp.o.provides: CMakeFiles/2dmom.dir/readmatlab.cpp.o.requires
+	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/readmatlab.cpp.o.provides.build
+.PHONY : CMakeFiles/2dmom.dir/readmatlab.cpp.o.provides
+
+CMakeFiles/2dmom.dir/readmatlab.cpp.o.provides.build: CMakeFiles/2dmom.dir/readmatlab.cpp.o
+
+
 # Object files for target 2dmom
 2dmom_OBJECTS = \
 "CMakeFiles/2dmom.dir/main.cpp.o" \
 "CMakeFiles/2dmom.dir/cartesian.cpp.o" \
-"CMakeFiles/2dmom.dir/mesh.cpp.o"
+"CMakeFiles/2dmom.dir/mesh.cpp.o" \
+"CMakeFiles/2dmom.dir/plot.cpp.o" \
+"CMakeFiles/2dmom.dir/greens.cpp.o" \
+"CMakeFiles/2dmom.dir/dielectric.cpp.o" \
+"CMakeFiles/2dmom.dir/readmatlab.cpp.o"
 
 # External object files for target 2dmom
 2dmom_EXTERNAL_OBJECTS =
@@ -141,9 +241,188 @@ CMakeFiles/2dmom.dir/mesh.cpp.o.provides.build: CMakeFiles/2dmom.dir/mesh.cpp.o
 2dmom: CMakeFiles/2dmom.dir/main.cpp.o
 2dmom: CMakeFiles/2dmom.dir/cartesian.cpp.o
 2dmom: CMakeFiles/2dmom.dir/mesh.cpp.o
+2dmom: CMakeFiles/2dmom.dir/plot.cpp.o
+2dmom: CMakeFiles/2dmom.dir/greens.cpp.o
+2dmom: CMakeFiles/2dmom.dir/dielectric.cpp.o
+2dmom: CMakeFiles/2dmom.dir/readmatlab.cpp.o
 2dmom: CMakeFiles/2dmom.dir/build.make
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOGeoJSON-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libz.so
+2dmom: /usr/lib/x86_64-linux-gnu/libtiff.so
+2dmom: /usr/lib/x86_64-linux-gnu/libjpeg.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOExport-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libpng.so
+2dmom: /usr/lib/x86_64-linux-gnu/libfreetype.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingGL2PS-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL-6.2.so.6.2.0
+2dmom: /usr/lib/libgl2ps.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOPostgreSQL-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeTypeFontConfig-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOMPIImage-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOParallelExodus-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOExodus-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libjsoncpp.so
+2dmom: /usr/lib/x86_64-linux-gnu/libexpat.so
+2dmom: /usr/lib/x86_64-linux-gnu/libnetcdf_c++.so
+2dmom: /usr/lib/x86_64-linux-gnu/libnetcdf.so
+2dmom: /usr/lib/x86_64-linux-gnu/hdf5/serial/lib/libhdf5.so
+2dmom: /usr/lib/x86_64-linux-gnu/libpthread.so
+2dmom: /usr/lib/x86_64-linux-gnu/libsz.so
+2dmom: /usr/lib/x86_64-linux-gnu/libdl.so
+2dmom: /usr/lib/x86_64-linux-gnu/libm.so
+2dmom: /usr/lib/x86_64-linux-gnu/hdf5/serial/lib/libhdf5_hl.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkDomainsChemistry-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingMath-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingStatistics-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOVPIC-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkVPIC-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersHyperTree-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOImport-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersVerdict-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkverdict-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkParallelMPI4Py-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+2dmom: /usr/lib/x86_64-linux-gnu/libproj.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOGDAL-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersReebGraph-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingMatplotlib-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkPythonInterpreter-6.2.so.6.2.0
+2dmom: /usr/lib/libvtkWrappingTools-6.2.a
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkTestingRendering-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkLocalExample-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOInfovis-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libxml2.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingImage-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOFFMPEG-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOMovie-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libtheoraenc.so
+2dmom: /usr/lib/x86_64-linux-gnu/libtheoradec.so
+2dmom: /usr/lib/x86_64-linux-gnu/libogg.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOParallel-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIONetCDF-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallelMPI-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkInteractionImage-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingMorphological-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOAMR-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOODBC-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOMPIParallel-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOMySQL-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOEnSight-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallelImaging-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallelStatistics-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersSelection-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeTypeOpenGL-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkInfovisBoostGraphAlgorithms-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOParallelNetCDF-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersPython-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingParallelLIC-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkWrappingJava-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingParallel-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkTestingIOSQL-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOParallelLSDyna-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersProgrammable-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersTexture-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkViewsGeovis-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkViewsInfovis-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingStencil-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneric-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOMINC-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOXdmf2-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOVideo-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkTestingGenericBridge-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallelGeometry-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallelFlowPaths-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersSMP-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOParallelXML-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolumeOpenGL-6.2.so.6.2.0
+2dmom: /usr/lib/libarmadillo.so
+2dmom: ../complex_bessel/build/libcomplex_bessel.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkexoIIc-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libnetcdf_c++.so
+2dmom: /usr/lib/x86_64-linux-gnu/libnetcdf.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkWrappingPython27Core-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingLIC-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallel-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOSQL-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOLSDyna-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkGeovisCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libproj.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingLabel-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkInfovisLayout-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersImaging-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingColor-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkftgl-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libfreetype.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkxdmf2-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/hdf5/serial/lib/libhdf5.so
+2dmom: /usr/lib/x86_64-linux-gnu/libpthread.so
+2dmom: /usr/lib/x86_64-linux-gnu/libsz.so
+2dmom: /usr/lib/x86_64-linux-gnu/libdl.so
+2dmom: /usr/lib/x86_64-linux-gnu/libm.so
+2dmom: /usr/lib/x86_64-linux-gnu/hdf5/serial/lib/libhdf5_hl.so
+2dmom: /usr/lib/x86_64-linux-gnu/libxml2.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersFlowPaths-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkParallelMPI-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersAMR-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkParallelCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOXML-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOImage-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkIOCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkmetaio-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libz.so
+2dmom: /usr/lib/x86_64-linux-gnu/libGLU.so
+2dmom: /usr/lib/x86_64-linux-gnu/libGL.so
+2dmom: /usr/lib/x86_64-linux-gnu/libSM.so
+2dmom: /usr/lib/x86_64-linux-gnu/libICE.so
+2dmom: /usr/lib/x86_64-linux-gnu/libX11.so
+2dmom: /usr/lib/x86_64-linux-gnu/libXext.so
+2dmom: /usr/lib/x86_64-linux-gnu/libXt.so
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkalglib-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtksys-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
+2dmom: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
 2dmom: CMakeFiles/2dmom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 2dmom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xt/Documents/2dmom/Project/Src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable 2dmom"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2dmom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +433,10 @@ CMakeFiles/2dmom.dir/build: 2dmom
 CMakeFiles/2dmom.dir/requires: CMakeFiles/2dmom.dir/main.cpp.o.requires
 CMakeFiles/2dmom.dir/requires: CMakeFiles/2dmom.dir/cartesian.cpp.o.requires
 CMakeFiles/2dmom.dir/requires: CMakeFiles/2dmom.dir/mesh.cpp.o.requires
+CMakeFiles/2dmom.dir/requires: CMakeFiles/2dmom.dir/plot.cpp.o.requires
+CMakeFiles/2dmom.dir/requires: CMakeFiles/2dmom.dir/greens.cpp.o.requires
+CMakeFiles/2dmom.dir/requires: CMakeFiles/2dmom.dir/dielectric.cpp.o.requires
+CMakeFiles/2dmom.dir/requires: CMakeFiles/2dmom.dir/readmatlab.cpp.o.requires
 
 .PHONY : CMakeFiles/2dmom.dir/requires
 

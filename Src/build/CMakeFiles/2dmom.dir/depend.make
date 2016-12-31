@@ -15,6 +15,9 @@ CMakeFiles/2dmom.dir/greens.cpp.o: ../complex_bessel/include/complex_bessel_bits
 CMakeFiles/2dmom.dir/greens.cpp.o: ../complex_bessel/include/complex_bessel_bits/fortranLinkage.h
 CMakeFiles/2dmom.dir/greens.cpp.o: ../complex_bessel/include/complex_bessel_bits/sph_besselFunctions.h
 CMakeFiles/2dmom.dir/greens.cpp.o: ../complex_bessel/include/complex_bessel_bits/utilities.h
+CMakeFiles/2dmom.dir/greens.cpp.o: ../EMConst.hpp
+CMakeFiles/2dmom.dir/greens.cpp.o: ../cartesian.hpp
+CMakeFiles/2dmom.dir/greens.cpp.o: ../dielectric.hpp
 CMakeFiles/2dmom.dir/greens.cpp.o: ../greens.cpp
 CMakeFiles/2dmom.dir/greens.cpp.o: ../greens.hpp
 

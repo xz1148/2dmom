@@ -12,88 +12,80 @@
 #include "greens.hpp"
 #include "dielectric.hpp"
 #include "readmatlab.hpp"
+#include <armadillo>
+#include <omp.h>
 
 using namespace std;
-using namespace sp_bessel;
+using namespace sp_bessel; using namespace arma;
+
 
 int main(int argc, char** argv)
 {
+//	double k=1;
+//	complex<double> output;
+//	double t_start = omp_get_wtime();
+//	double N_threads = omp_get_num_threads();
+//	cout << "number of threads: " << N_threads << endl;
+//#pragma omp parallel for
+//	for (int i=0; i<10000000; i++)
+//	{
+//		output = Greens2D(k, 1.0+i*1.0e-7);
+//	}
+//	
+//	double t_end = omp_get_wtime();
+//	cout << "time elapsed: " << t_end - t_start << endl;
+//	return 0;
+	int n_dl;
+	double freq_MHz;
+	cout << "please input the mesh factor " << endl;
+	cin >> n_dl;
+	cout << "please input the frequency " << endl;
+	cin  >> freq_MHz;
 
-//	double mesh_factor;
-//	double rad;
-//	double freq = 100e6;
-//	double lambda = c0 / freq;
-//	double k0 = 2 * M_PI / lambda;
-//	double r = 1;
-//
-//
-//	cout << "Please input the radius of cylinder:" << endl;
-//	cin >> rad;
-//	cout << "Please input the mesh factor (segment_length = radius / mesh_factor)" << endl;
-//	cin >> mesh_factor;
-//	vector<Point> Points;
-//	vector<Triangle> Triangles;
-//	vector<Element> Elements;
-//	double lc = rad / mesh_factor;
-//	CreateGeo(rad, lc);
-//	StartMesh();
-//	ReadMesh(Points, Triangles);
-//	double area = 0.0;
-//	int NTriangles = Triangles.size();
-//	for (int i=0; i<NTriangles; i++)
-//	{
-//		area += Triangles[i].GetArea(); // calculate the total area
-//	}
-//	cout << "the area of cylinder cross section is " << setprecision(15) << area << endl;
-//	cout << "the real area is " << M_PI * rad * rad << endl;
-//	cout << "the permittivity is " << EPS0 << endl;
-//	cout << "k0r is" << k0 * r << endl;
-//	cout << "the output of greens function is " << Greens2D(k0, r) << endl;
-//	cout << Triangles[0] << endl;
-//
-//	for (int i=0; i<NTriangles; i++)
-//	{
-//		Element element_tmp(Triangles[i]);
-//		Elements.push_back(element_tmp);
-//	}
-//
-//
-//	cout << Elements[0] << endl;
-//
-//	Elements[0].GetPoint(0).SetX(1.0);
-//	Elements[0].GetPoint(0).SetY(2.0);
-//
-//	cout << Triangles[0] << endl;
-//	cout << Elements[0] << endl;
+	double freq = freq_MHz * 1e6;
+	double omega = 2*M_PI*freq;
+	double lambda = c0 / freq;
+	complex<double> eps_r = 10.0 - 10.0i;
+	complex<double> eps1 = EPS0 * eps_r;
+	double sigma = -imag(eps1)*omega; //conductivity
+	double radii = 0.5;
+	double lc = lambda/n_dl;
 
-//	for (int i=0; i<NPoint; i++)
-//	{
-//	cout << "the coordinate of point is: " << Points[i] << endl;
-//	}
-//	cout << "number of points is: "	 << NPoint << endl;
-//	Point p1, p2, p3;
-//	p1.SetX(1);
-//	p1.SetY(1);
-//	Triangle tri(p1, p2, p3);
-//	cout << tri.GetPoint(0) << endl;
-//
-	int idx;
-	vector<Point> p1, p2, p3;
+	Mat<complex<double> > G;
+	cx_vec Ei;
+	cx_vec E;
+	double P_loss;
+	vector<Point> points, pc;	
+	vector<Triangle> triangles;	
 	vector<Element> elements;
-	ReadMATLAB(p1, p2, p3);
-	int N_tri = p1.size();
-	double area = 0.0;
+	
+	CreateGeo(radii, lc);
+	StartMesh();
+	ReadMesh(points, triangles);	
+
+	int N_tri = triangles.size();
+	vec area(N_tri);
 	for (int i=0; i<N_tri; i++)
 	{
-		Element element_buf(p1[i], p2[i], p3[i]);
+		Point pc_buf;
+		Element element_buf(triangles[i], eps_r);
 		elements.push_back(element_buf);
-		area += elements[i].GetArea();
+		elements[i].GetCenterPoint(pc_buf);
+		pc.push_back(pc_buf);
+		area[i] = elements[i].GetArea();
 	}
-	cout << "Number of points is " << p1.size() << endl;
-	cout << "please input the index of p1 p2 p3" << endl;
-	cin >> idx;
-	cout << elements[idx] << endl;
-	cout << "the total area is " << area << endl;
+	cout << "Number of elements is " << triangles.size() << endl;
+	cout << "Generating G matrix" << endl;
+	G = GMat(elements, omega);
+//	cout << "The time of generating G matrix is " << time_end - time_start << " seconds" << endl;
+	cout << "Generating right end" << endl;
+	Ei = Ein(elements, omega);
+	cout << "solving equation " << endl;
+	E = solve(G - eye<cx_mat>(N_tri, N_tri), -Ei);
+	P_loss = sum(0.5 * sigma * abs(E) % abs(E) % area);
+	cout << P_loss << endl;	
+	cout << sum(area) << endl;
+	cout << M_PI * radii * radii << endl;
 	return 0;
 }	
 

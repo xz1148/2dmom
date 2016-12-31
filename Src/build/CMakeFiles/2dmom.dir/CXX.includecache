@@ -93,10 +93,34 @@ iostream
 -
 complex_bessel.h
 /home/xt/Documents/2dmom/Project/Src/complex_bessel.h
+armadillo
+-
+vector
+-
+cartesian.hpp
+/home/xt/Documents/2dmom/Project/Src/cartesian.hpp
+dielectric.hpp
+/home/xt/Documents/2dmom/Project/Src/dielectric.hpp
+EMConst.hpp
+/home/xt/Documents/2dmom/Project/Src/EMConst.hpp
+cmath
+-
+omp.h
+-
+boost/math/special_functions.hpp
+-
+time.h
+-
 
 /home/xt/Documents/2dmom/Project/Src/greens.hpp
 complex
 -
+armadillo
+-
+vector
+-
+dielectric.hpp
+/home/xt/Documents/2dmom/Project/Src/dielectric.hpp
 
 /home/xt/Documents/2dmom/Project/Src/main.cpp
 cartesian.hpp
@@ -127,6 +151,10 @@ dielectric.hpp
 /home/xt/Documents/2dmom/Project/Src/dielectric.hpp
 readmatlab.hpp
 /home/xt/Documents/2dmom/Project/Src/readmatlab.hpp
+armadillo
+-
+omp.h
+-
 
 /home/xt/Documents/2dmom/Project/Src/mesh.cpp
 mesh.hpp

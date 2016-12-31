@@ -48,6 +48,8 @@ flags = [
 '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1',
 '-isystem',
 '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include',
+'-isystem',
+'/usr/lib/gcc/x86_64-linux-gnu/5.4.0/include',
 '-I',
 '/usr/include/vtk-6.2'
 ]

@@ -13,4 +13,6 @@ add_executable(2dmom ${SOURCES})
 target_link_libraries(2dmom ${VTK_LIBRARIES} ${ARMADILLO_LIBRARIES})
 target_link_libraries(2dmom ${COMPLEX_BESSEL_LIB})
 
+set(CMAKE_CXX_FLAGS "-fopenmp")
+
 

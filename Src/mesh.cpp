@@ -31,7 +31,8 @@ void CreateGeo(double radii, double lc)
 
 void StartMesh()
 {
-	system("gmsh -2 circle_tmp.geo");
+	int i;
+	i = system("gmsh -2 circle_tmp.geo");
 }
 
 void SkipLine(ifstream& MeshFile, int N) // skip n lines in reading
@@ -61,6 +62,7 @@ void ReadPoints(vector<Point>& Points, ifstream& MeshFile, int NPoint)
 		Points.push_back(Point(PointXYZ[1], PointXYZ[2]));
 	}
 }
+
 void ReadElements(vector<Triangle>& Triangles, vector<Point> Points, ifstream& MeshFile, int NElements)
 {
 	string LineBuf;

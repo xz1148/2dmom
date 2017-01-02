@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xt/Documents/2dmom/Project/Src
+CMAKE_SOURCE_DIR = /home/xt/Documents/2dmom/Src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xt/Documents/2dmom/Project/Src/build
+CMAKE_BINARY_DIR = /home/xt/Documents/2dmom/Src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/Documents/2dmom/Project/Src/build/CMakeFiles /home/xt/Documents/2dmom/Project/Src/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/Documents/2dmom/Src/build/CMakeFiles /home/xt/Documents/2dmom/Src/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/Documents/2dmom/Project/Src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/Documents/2dmom/Src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -258,33 +258,6 @@ mesh.cpp.s:
 	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/mesh.cpp.s
 .PHONY : mesh.cpp.s
 
-plot.o: plot.cpp.o
-
-.PHONY : plot.o
-
-# target to build an object file
-plot.cpp.o:
-	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/plot.cpp.o
-.PHONY : plot.cpp.o
-
-plot.i: plot.cpp.i
-
-.PHONY : plot.i
-
-# target to preprocess a source file
-plot.cpp.i:
-	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/plot.cpp.i
-.PHONY : plot.cpp.i
-
-plot.s: plot.cpp.s
-
-.PHONY : plot.s
-
-# target to generate assembly for a file
-plot.cpp.s:
-	$(MAKE) -f CMakeFiles/2dmom.dir/build.make CMakeFiles/2dmom.dir/plot.cpp.s
-.PHONY : plot.cpp.s
-
 readmatlab.o: readmatlab.cpp.o
 
 .PHONY : readmatlab.o
@@ -336,9 +309,6 @@ help:
 	@echo "... mesh.o"
 	@echo "... mesh.i"
 	@echo "... mesh.s"
-	@echo "... plot.o"
-	@echo "... plot.i"
-	@echo "... plot.s"
 	@echo "... readmatlab.o"
 	@echo "... readmatlab.i"
 	@echo "... readmatlab.s"

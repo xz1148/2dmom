@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/2dmom.dir/main.cpp.o"
   "CMakeFiles/2dmom.dir/cartesian.cpp.o"
   "CMakeFiles/2dmom.dir/mesh.cpp.o"
-  "CMakeFiles/2dmom.dir/plot.cpp.o"
   "CMakeFiles/2dmom.dir/greens.cpp.o"
   "CMakeFiles/2dmom.dir/dielectric.cpp.o"
   "CMakeFiles/2dmom.dir/readmatlab.cpp.o"
